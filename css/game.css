@@ -1,0 +1,17 @@
+.background    { background-image: url("https://3dnews.ru/assets/external/illustrations/2018/02/14/965600/TS4_GP06_OFFICIAL_02_003_1080.jpg.adapt.crop16x9.1455w.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(102, 255, 255); }
+.wall          { background: rgb(153, 255, 102); }
+.floater { background: rgb(255, 102, 255);}
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+.coin { background: rgb(255, 255,0); }
+
+.game {
+  overflow: hidden;
+  max-width: 2000px;
+  max-height: 1000px;
+  position: relative;
+}
